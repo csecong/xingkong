@@ -1,8 +1,8 @@
-// The global include file is included automatically.
-#ifndef GLOBALS_H
-#define GLOBALS_H
+// 定义日志目录
+#define LOG_DIR "/log/"
 
-// mudcore框架头文件（请放在最底部）
+// 定义存档目录
+#define DATA_DIR "/data/"
+
+// 引用框架头文件(放在最后)
 #include <mudcore.h>
-
-#endif
